@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <manifest package="com.example.word_puzzle" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+
+    <application android:theme="@style/AppTheme" android:supportsRtl="true" android:roundIcon="@mipmap/ic_launcher_round" android:label="@string/app_name" android:icon="@mipmap/ic_launcher" android:allowBackup="true" android:largeHeap="true"
+        android:hardwareAccelerated="false">
+
+        <activity android:name=".levell9"/>
+
+        <activity android:name=".Levell7Activity"/>
+
+        <activity android:name=".levell6"/>
+
+    <activity android:name=".levell5"/>
+
+    <activity android:name=".levell4"/>
+
+    <activity android:name=".levell3"/>
+
+    <activity android:name=".levell2"/>
+
+    <activity android:name=".expert"/>
+
+    <activity android:name=".levell1"/>
+
+    <activity android:name=".level1"/>
+
+    <activity android:name=".level6"/>
+
+    <activity android:name=".level5"/>
+
+    <activity android:name=".level4"/>
+
+    <activity android:name=".beginner"/>
+
+    <activity android:name=".levels"/>
+
+
+    <activity android:name=".MainMenu">
+
+
+    <intent-filter>
+
+    <action android:name="android.intent.action.MAIN"/>
+
+    <category android:name="android.intent.category.LAUNCHER"/>
+
+</intent-filter>
+
+</activity>
+
+    <activity android:name=".level3"/>
+
+    <activity android:name=".level2"/>
+
+    <activity android:name=".lose"/>
+
+    <activity android:name=".message"/>
+
+
+
+</application>
+
+</manifest>
